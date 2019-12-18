@@ -1,13 +1,13 @@
 'use strict';
 
-a = 5;
+var a = 5;
 console.log(a);
 // console.log(leftBorderWidth);
 var number = 5;
 var string = "Hello";
 var sym = Symbol();
 var boolean = true;
-null;
+// null;
 var obj = {};
 var leftBorderWidth = "ssd"; 
 let first = 1;
@@ -31,7 +31,7 @@ let persone = {
 };
 
 console.log(persone.name);
-console.log(persone['name']);
+console.log(persone['.name']);
 
 let arr = ['plum.png', 'orange.jpg', 'apple.bmp'];
 
